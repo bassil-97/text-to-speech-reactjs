@@ -1,0 +1,23 @@
+.app-feature__conatiner {
+    position: relative;
+    width: 20rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 10px;
+    background-color: #F4F6F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.app-feature__conatiner h5 {
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+
+.feature-icon {
+    position: absolute;
+    top: -60px;
+}

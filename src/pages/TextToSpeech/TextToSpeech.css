@@ -1,0 +1,14 @@
+.text-to-speech__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.text-to-speech__container .container {
+    width: 50%;
+    padding: 3rem 1.5rem;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+}

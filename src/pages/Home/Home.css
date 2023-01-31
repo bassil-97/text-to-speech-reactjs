@@ -1,0 +1,44 @@
+.home-page__container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 100px !important;
+    padding-bottom: 4rem;
+    z-index: 99;
+}
+
+.home-page__container h1 {
+    font-size: 4rem;
+}
+
+.app-features {
+    width: 100%;
+    margin-top: 200px !important;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+@media screen and (max-width: 992px) {
+    .home-page__container {
+        margin-top: 50px !important;
+    }
+
+    .home-page__container .col-lg-6 {
+        text-align: center;
+    }
+
+    .home-page__container .app-icon__wrapper {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-page__container h1 {
+        font-size: 3rem;
+    }
+}
