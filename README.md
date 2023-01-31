@@ -4,8 +4,8 @@
 
 ## ✅ App Features:
 
-### Free to use application.
-### Support several languages.
-### Unlimited number of words to be converted to speech.
+### ¹ Free to use application.
+### ² Support several languages.
+### ³ Unlimited number of words to be converted to speech.
 
 ### 💻 Live Demo: https://text-to-speech-reactjs.netlify.app/
